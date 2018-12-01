@@ -20,10 +20,10 @@ if(isset($_SESSION['session']))
           	<a href="./php/registro.php"</a>Registrar</a>
     </div> <!-- fin opcion-->
     
-	<div id="envoltura">
-		<div id="contenedor">
+	<div id="usuario">
+		<div id="Clave">
 	
-			<div id="Clave" >
+			<div id="Ccontenedor" >
 				<img src="./css/images/loquito.jpg">
 			</div>
 	
