@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `cargo` (
 --
 
 INSERT INTO `cargo` (`id`, `descripcion`) VALUES
-(1, 'Admistrador'),
+(1, 'Supervisor'),
 (2, 'Usuarios');
 
 -- --------------------------------------------------------
