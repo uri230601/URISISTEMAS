@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nombre`, `apellidos`, `correo`, `password`, `cargo_id`) VALUES
+INSERT INTO `usuarios` (`id`, `nombre`, `apellidos`, `correo`, `contraseña`, `cargo_id`) VALUES
 (11, 'Alicia', 'garcia', 'alix@live.com.mx', '*0', 2),
 (13, 'Admin', 'mendoza', 'admin@live.com.mx', '*0', 1),
 (17, 'Jose alfredo', 'roman cruz', 'pery@gmail.com', 'qwerty', 2),
