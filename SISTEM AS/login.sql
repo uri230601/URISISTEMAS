@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `cargo` (
 `id` int(11) NOT NULL,
-  `descripcion` varchar(15) NOT NULL
+  `especificacion` varchar(15) NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
