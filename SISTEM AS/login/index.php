@@ -23,7 +23,7 @@ if(isset($_SESSION['session']))
 	<div id="envoltura">
 		<div id="contenedor">
 	
-			<div id="cabecera" >
+			<div id="Clave" >
 				<img src="./css/images/loquito.jpg">
 			</div>
 	
