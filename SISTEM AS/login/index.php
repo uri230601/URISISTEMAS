@@ -9,7 +9,7 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFTEC</title>
+	<title>INFTEC</nombre>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
@@ -17,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 	
 	<div id="sistemas de información">
-          	<a href="./php/registro.php"</a>Registrar</a>
+          	<a href="./php/Ingresa.php"</a>Registrar</a>
     </div> <!-- fin opcion-->
     
 	<div id="usuario">
