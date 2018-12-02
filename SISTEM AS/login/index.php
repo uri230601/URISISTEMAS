@@ -42,7 +42,7 @@ if(isset($_SESSION['session']))
 				</form>
 			</div><!--fin cuerpo-->
 	
-			<div id="pie">sistemas de informacion</div>
+			<div id="pie">cruz azul campeon</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
