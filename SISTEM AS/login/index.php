@@ -2,7 +2,7 @@
 require_once("./php/myDBC.php");
 if(isset($_SESSION['session']))
 {
-	header("Nombre usuario.php");
+	header("ID Usuario.php");
 	exit;
 }
 ?>
@@ -33,7 +33,7 @@ if(isset($_SESSION['session']))
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >Nombre de Usuario:</label></p>
-						<input name="Nombre" type="text" id="usuario" placeholder="Ingresa location" autofocus="" required=""></p>
+						<input name="Nombre" type="text" id="usuario" placeholder="acceder" autofocus="" required=""></p>
 					
 					<p><label>Clave:</label></p>
 						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password" required=""></p>
@@ -42,7 +42,7 @@ if(isset($_SESSION['session']))
 				</form>
 			</div><!--fin cuerpo-->
 	
-			<div id="pie">sistemas de informacion</div>
+			<div id="pie">cruz azul campeon</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
