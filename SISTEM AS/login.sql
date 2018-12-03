@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `perfiles` (
   `nombre` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `apellidos` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `correo` varchar(45) DEFAULT NULL,
-  `password` varchar(45) DEFAULT NULL,
+  `contraseña` varchar(45) DEFAULT NULL,
   `cargo_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=20 ;
 
