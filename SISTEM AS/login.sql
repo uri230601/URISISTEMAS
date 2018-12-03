@@ -47,7 +47,7 @@ INSERT INTO `cargo` (`id`, `descripcion`) VALUES
 
 CREATE TABLE IF NOT EXISTS `perfiles` (
 `id` int(11) NOT NULL,
-  `nombre` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `nickname` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `apellidos` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
   `contraseña` varchar(45) DEFAULT NULL,
