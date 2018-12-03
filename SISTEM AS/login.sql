@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `cargo` (
 `id` int(11) NOT NULL,
-  `descripcion` varchar(15) NOT NULL
+  `especificacion` varchar(15) NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `cargo` (
 --
 
 INSERT INTO `cargo` (`id`, `descripcion`) VALUES
-(1, 'Admistrador'),
+(1, 'Supervisor'),
 (2, 'Usuarios');
 
 -- --------------------------------------------------------
@@ -45,7 +45,7 @@ INSERT INTO `cargo` (`id`, `descripcion`) VALUES
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE IF NOT EXISTS `usuarios` (
+CREATE TABLE IF NOT EXISTS `perfiles` (
 `id` int(11) NOT NULL,
   `nombre` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `apellidos` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nombre`, `apellidos`, `correo`, `password`, `cargo_id`) VALUES
+INSERT INTO `usuarios` (`id`, `denominación`, `sobrenombres`, `correo`, `contraseña`, `cargo_id`) VALUES
 (11, 'Alicia', 'garcia', 'alix@live.com.mx', '*0', 2),
 (13, 'Admin', 'mendoza', 'admin@live.com.mx', '*0', 1),
 (17, 'Jose alfredo', 'roman cruz', 'pery@gmail.com', 'qwerty', 2),
