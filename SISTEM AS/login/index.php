@@ -2,7 +2,7 @@
 require_once("./php/myDBC.php");
 if(isset($_SESSION['session']))
 {
-	header("Nombre usuario.php");
+	header("ID Usuario.php");
 	exit;
 }
 ?>
