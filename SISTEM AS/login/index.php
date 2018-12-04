@@ -42,7 +42,7 @@ if(isset($_SESSION['session']))
 				</form>
 			</div><!--fin cuerpo-->
 
-			<div id="pie">uriel gay</div>
+			<div id="pie">Jorge David es el administrador</div>
 			<div id="pie">profe ponganos 10 paro</div>
 		</div><!-- fin contenedor -->
 
