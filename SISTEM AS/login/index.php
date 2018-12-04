@@ -6,7 +6,7 @@ if(isset($_SESSION['session']))
 	exit;
 }
 ?>
-<!DOCTYPE html>
+<!DOCTYPE aplicación para un servidor
 <html lang="es">
 <head>
 	<title></nombre>
