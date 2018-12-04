@@ -17,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 	
 	<div id="sistemas de información">
-          	<a href="./php/Ingresa.php"</a>iniciar sesion</a>
+          	<a href="./php/Ingresa.php"</a>inicioS</a
     </div> <!-- fin opcion-->
     
 	<div id="usuario">
