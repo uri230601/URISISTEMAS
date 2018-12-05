@@ -1,6 +1,6 @@
 <?php
 require_once("./php/myDBC.php");
-if(isset($_iniciar['session']))
+if(isset($_empezar sesion['session']))
 {
 	header("ID Usuario.php");
 	exit;
