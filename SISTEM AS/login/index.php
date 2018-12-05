@@ -43,7 +43,7 @@ if(isset($_SESSION['session']))
 			</div><!--fin cuerpo-->
 
 			<div id="pie">Jorge David es el administrador</div>
-			<div id="pie">profe ponganos 10 paro</div>
+			<div id="pie">profe ayudeme</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
